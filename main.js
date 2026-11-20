@@ -6,9 +6,20 @@ import * as ui from './UI.js'
 // INPUT VALIDATORS
 ui.titleInpt.addEventListener('input',ui.titleValidator)
 ui.descriptionInpt.addEventListener('input',ui.descriptionValidator)
+ui.titleInpt.addEventListener('input',ui.titleValidator)
+ui.descriptionInpt.addEventListener('input',ui.descriptionValidator)
+ui.titleInpt.addEventListener('input',ui.titleValidator)
+ui.descriptionInpt.addEventListener('input',ui.descriptionValidator)
+ui.titleInpt.addEventListener('input',ui.titleValidator)
+ui.descriptionInpt.addEventListener('input',ui.descriptionValidator)
+ui.titleInpt.addEventListener('input',ui.titleValidator)
+ui.descriptionInpt.addEventListener('input',ui.descriptionValidator)
 
 //search Input
-ui.searchInput.addEventListener('input' , ui.searchByTitle)
+ui.searchInput.addEventListener('input' , ui.searchByTitle)      
+
+
+this.HiddBtn
 
 //form submition
 ui.creatCardForm.addEventListener('submit',(event) => {
